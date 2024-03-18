@@ -12,18 +12,10 @@ body{
 
 header {
     position: sticky;
-    top:1px;
+    top:-1px;
     border-bottom: 1px solid #fff;
-    z-index: 1;
+    z-index: 3;
 } 
-
-.border-black{
-    position:absolute;
-    top: -1px;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 1);
-    font-size: 1px;
-}
 
 nav {
     background-color: #000;
@@ -366,17 +358,9 @@ footer{
     color:goldenrod
 }
 
-.border-black{
-    position:absolute;
-    bottom: -1px;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 1);
-    font-size: 1px;
-}
-
 /* Responsive Inicio */
 
-@media (max-width: 703px){
+@media (max-width: 768px){
     .inicio-titulo-container{
         width: 95vw;
     }
@@ -397,7 +381,7 @@ footer{
 
 /* Resposive Sobre Nosotros */
 
-@media (max-width: 703px){
+@media (max-width: 768px){
     .nosotros-container{
         flex-direction: column-reverse;
         align-items: center;
@@ -444,11 +428,15 @@ footer{
     .nosotros-right-text1 h3{
         margin: 2rem 0;
     }
+
+    .rocio-container{
+        align-items: center;
+    }
 }
 
 /* Resposive Tramites */
 
-@media (max-width: 703px){
+@media (max-width: 768px){
     .tramites-titulo{
         width: 80vw;
         margin: 2rem 0 2rem 2rem ;
@@ -461,7 +449,7 @@ footer{
 
 /* Responsive Contacto */
 
-@media (max-width: 703px){
+@media (max-width: 768px){
     .contacto-container{
         flex-direction: column-reverse;
     }
@@ -504,23 +492,21 @@ footer{
 
 /* Resposive Footer*/
 
-@media (max-width: 703px){
+@media (max-width: 768px){
     .copy{
-        font-size: .8rem;
+        font-size: 1.2rem;
         position: relative;
         left: -2rem;
-        bottom: -.5rem;
-        padding-right: 4rem;
-    }
-
-    .copy span{
-        text-align: center;
+        padding-right: 3rem;
     }
 
     .social-media{
         position: relative;
-        left:-2rem;
-        bottom:-.5rem;
+        left:-1.5rem;
+    }
+    
+    .social-media-icon img{
+        width: 3.5rem;
     }
 }
 
