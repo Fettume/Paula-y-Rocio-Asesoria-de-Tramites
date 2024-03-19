@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightyellow;
+    background-color: #ffffe0;
 }
 
 /* Header General */
@@ -97,9 +97,10 @@ nav img{
 
 .nosotros-titulo h1{
     font-size: 4rem;
-    text-decoration: overline underline double goldenrod .4rem;
-    border: .7rem solid #3a3a3a;
-    border-radius: 10%;
+    background-color: goldenrod;
+    padding: 1rem;
+    border: 1rem double lightgray;
+    border-radius: 40%;
 }
 
 .nosotros-container{
@@ -121,10 +122,7 @@ nav img{
 }
 
 .nosotros-left-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 4rem 0 1rem 0;
+    margin: 4rem 0 0 0;
 }
 
 .nosotros-left-maps h3{
@@ -134,11 +132,12 @@ nav img{
 
 .nosotros-left-reseña h4{
     text-decoration: underline solid #000;
+    text-align: center;
 }
 
 .nosotros-left-reseña img{
     width: 20rem;
-    margin-right: 2rem;
+    margin: 2rem;
     border: 3px solid darkgrey;
 }
 
@@ -209,9 +208,6 @@ nav img{
 
 .tramites-titulo h1{
     font-size: 5rem;
-    text-decoration: overline underline double goldenrod .5rem;
-    border: .7rem solid #3a3a3a;
-    border-radius: 10%;
 }
 
 .tramite-container{
@@ -237,7 +233,7 @@ nav img{
     border-radius: 15%;
 }
 
-.tramite span{
+.tramite h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size:1.3rem;
     text-align: center;
@@ -269,11 +265,16 @@ nav img{
     align-items: center;
 }
 
+.carousel-iconos{
+    background-color: #000;
+    border-radius: 50%;
+}
+
 /* Consulta Main */
 
 .contacto-left-titulo{
     margin: 1rem;
-    text-decoration: underline overline 2px double;
+    text-decoration: underline 2px double;
     
 }
 
@@ -283,7 +284,7 @@ nav img{
 }
 
 .contacto-right{
-    margin: 8rem 10rem 4rem 0;
+    margin: 4rem 3rem 4rem 0 ;
     border: 15px double lightgrey;
     background-color: #fdbf39;
 }
@@ -324,6 +325,12 @@ nav img{
     width: 24.5rem; 
 }
 
+.form-select{
+    width: 24.5rem;
+    background-color: #000;
+    color: #fff;
+}
+
 /* Footer General */
 
 footer{
@@ -339,7 +346,6 @@ footer{
 
 .whatsapp img{
     width: 3rem;
-    border-radius: 20%;
 }
 
 .social-media-icon{
@@ -447,6 +453,22 @@ footer{
     }
 }
 
+/* Responsive Testimonio */
+
+@media (max-width: 768px){
+    .carousel-inner{
+        width: 94vw;
+    img{
+        display: flex;
+        position: relative;
+        right:4rem;
+        width: 130vw;
+        height: 100vh;
+        object-fit:fill;
+    }
+    }
+}
+
 /* Responsive Contacto */
 
 @media (max-width: 768px){
@@ -470,6 +492,10 @@ footer{
     }
 
     .email input{
+        width: 80vw;
+    }
+
+    .form-select{
         width: 80vw;
     }
     
