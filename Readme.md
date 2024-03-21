@@ -1,1 +1,0 @@
-Todavia falta pulir un par de datos pero la idea de esta pagina es ayudar a mi hermana y prima que quieren arrancar a emprender en lo que son tramites de ciudadanias que ellas conocen y permisos para estudios de intercambio en europa.
