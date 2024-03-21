@@ -1,0 +1,538 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ffffe0;
+}
+
+/* Header General */
+
+header {
+    position: sticky;
+    top:-1px;
+    border-bottom: 1px solid #fff;
+    z-index: 3;
+} 
+
+nav {
+    background-color: #000;
+    opacity: .9;
+}
+
+nav img{
+    width: 7rem;
+    height: 4rem;
+}
+
+.navbar-nav li{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link.activo{
+    color: goldenrod;
+}
+
+.nav-link:hover{
+    color:goldenrod
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-toggler-icon{
+    filter:brightness(700%);
+    width: 2rem;
+}
+
+/* Inicio Main */
+
+.main-inicio{
+    height: 100vh;
+}
+
+.inicio-titulo-container{
+    border: 5px solid #3D3C3C;
+    width: max-content;
+    margin: 4rem auto;
+    background-color: #000;
+}
+
+.inicio-titulo{
+    font-size: 5rem;
+    font-family: 'The Amsterdam', sans-serif;
+    margin: 2rem 0rem 1rem 0;
+    padding: 0 1rem;
+    color: #fff;
+}
+
+.inicio-sub-titulo{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2rem;
+    color: #918e8e;
+}
+
+.search-bar-input{
+    width: 30rem;
+}
+
+/* Nosotros Main */
+
+.nosotros-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.nosotros-titulo h1{
+    font-size: 4rem;
+    background-color: goldenrod;
+    padding: 1rem;
+    border: 1rem double lightgray;
+    border-radius: 40%;
+}
+
+.nosotros-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nosotros-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    margin: 5rem 0rem;
+}
+
+.nosotros-left-video iframe{
+    border: 6px solid darkgrey;
+}
+
+.nosotros-left-container{
+    margin: 4rem 0 0 0;
+}
+
+.nosotros-left-maps h3{
+    text-align: center;
+    text-decoration: underline solid #000;
+}
+
+.nosotros-left-reseña h4{
+    text-decoration: underline solid #000;
+    text-align: center;
+}
+
+.nosotros-left-reseña img{
+    width: 20rem;
+    margin: 2rem;
+    border: 3px solid darkgrey;
+}
+
+.nosotros-right{
+    width: 40vw;
+    margin: 5rem 5rem 0 0;
+}
+
+.nosotros-right-text1 h3{
+    text-decoration: underline solid #000;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.nosotros-right-text1{
+    margin-bottom: 3rem;
+}
+
+.rocio-background{
+    padding: 2rem 0;
+    border-radius: 10%;
+}
+
+.rocio-container{
+    margin-bottom: 2rem;
+    border: 5px solid goldenrod;
+    border-radius: 10%;
+    background-color: beige;
+}
+
+.rocio-container.paula{
+    margin: 0;
+}
+
+.rocio-list{
+    margin-top: 1rem;
+}
+
+.rocio-imagen img{
+    width: 15rem;
+    border-radius: 100%;
+    border: 3px solid #000;
+    margin: 1rem 1rem;
+}
+
+.rocio-items-nombre{
+    list-style: none;
+}
+
+.rocio-items a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 2rem;
+}
+
+.rocio-items a:hover {
+    color: gold;
+    transition: .5s;
+}
+
+/* Tramites Main */
+
+.tramites-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.tramites-titulo h1{
+    font-size: 5rem;
+}
+
+.tramite-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tramite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+ 
+}
+
+.tramite img{
+    width: 7rem;
+    margin-bottom: 1rem;
+    border: 3px solid #000;
+    border-radius: 15%;
+}
+
+.tramite h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.3rem;
+    text-align: center;
+}
+
+/* Testimonio Main */
+
+.testimonios-layout{
+    margin: auto;
+}
+
+.carousel-item img{
+    width: 70rem;
+    border-radius: 15%;
+    border: 6px solid lightyellow;
+}
+
+.aside{
+    width: 50%;
+    padding-top: 42rem;
+}
+
+.testimonios-main{
+    background: linear-gradient(#82DCFF,lightyellow);
+}
+
+.carousel-container{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-iconos{
+    background-color: #000;
+    border-radius: 50%;
+}
+
+/* Consulta Main */
+
+.contacto-left-titulo{
+    margin: 1rem;
+    text-decoration: underline 2px double;
+    
+}
+
+.contacto-left iframe{
+    border: 10px solid lightgrey;
+    margin-left: 3rem;
+}
+
+.contacto-right{
+    margin: 4rem 3rem 4rem 0 ;
+    border: 15px double lightgrey;
+    background-color: #fdbf39;
+}
+
+.contacto-right-titulo{
+    margin-top: 1rem
+}
+
+.form{
+    margin: 1rem;
+}
+
+.form input{
+    background-color: #000;
+    color: #fff;
+}
+
+.form textarea{
+    background-color: #000;
+    color: #fff;
+}
+
+.form button{
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 4rem;
+}
+
+.form button:hover{
+    background-color: lightgrey;
+    color: #000;
+    transition: .5s;
+}
+
+.email input{
+    width: 24.5rem; 
+}
+
+.form-select{
+    width: 24.5rem;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Footer General */
+
+footer{
+    background-color: #000;
+    border-top: 1px solid #fff;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.whatsapp img{
+    width: 3rem;
+}
+
+.social-media-icon{
+    list-style: none;
+}
+
+.social-media-icon img{
+    width: 3rem;
+    border-radius: 100%;
+    background-color: #000;
+    margin-top: 1rem;   
+}
+
+.copy{
+    font-size: 1.5rem;
+    color:goldenrod
+}
+
+/* Responsive Inicio */
+
+@media (max-width: 768px){
+    .inicio-titulo-container{
+        width: 95vw;
+    }
+    
+    .inicio-titulo{
+        font-size: 15vw;
+    }
+    
+    .inicio-sub-titulo{
+        font-size: 8vw;
+    }
+    
+    .barra input{
+        width: 80vw;
+    }
+}
+
+
+/* Resposive Sobre Nosotros */
+
+@media (max-width: 768px){
+    .nosotros-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nosotros-left-container{
+        flex-direction: column;
+    }
+    
+    .rocio-container{
+        flex-direction: column;
+    }
+    
+    .nosotros-titulo h1{
+        font-size: 12vw;
+    }
+    
+    .nosotros-left-video iframe{
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .nosotros-left-reseña img{
+        width: 90vw;
+        height: 20vh;
+        margin: 1rem 0;
+    }
+    
+    .nosotros-left-maps iframe{
+        width: 90vw;
+        height: 40vh;
+    }
+    
+    .nosotros-right{
+        margin: 0;
+        width: 90vw;
+    }
+    
+    .nosotros-right-text1{
+        margin: 0;
+    }
+    
+    .nosotros-right-text1 h3{
+        margin: 2rem 0;
+    }
+
+    .rocio-container{
+        align-items: center;
+    }
+}
+
+/* Resposive Tramites */
+
+@media (max-width: 768px){
+    .tramites-titulo{
+        width: 80vw;
+        margin: 2rem 0 2rem 2rem ;
+    }
+    
+    .tramites-titulo h1{
+        font-size: 4rem;
+    }
+}
+
+/* Responsive Testimonio */
+
+@media (max-width: 768px){
+    .carousel-inner{
+        width: 94vw;
+    img{
+        display: flex;
+        position: relative;
+        right:4rem;
+        width: 130vw;
+        height: 100vh;
+        object-fit:fill;
+    }
+    }
+}
+
+/* Responsive Contacto */
+
+@media (max-width: 768px){
+    .contacto-container{
+        flex-direction: column-reverse;
+    }
+    .contacto-right{
+        margin: 0;
+    }
+    .form{
+        margin: .5;
+        
+    }
+
+    .form input{
+        width: 60vw;
+    }
+
+    .persona{
+        flex-direction: column;
+    }
+
+    .email input{
+        width: 80vw;
+    }
+
+    .form-select{
+        width: 80vw;
+    }
+    
+    .form textarea{
+        width: 80vw;
+    }
+
+    .form button{
+        width: 50vw;
+        height: 10vh;
+    }
+
+    .contacto-left iframe{
+        width: 95vw;
+        height: 95vw;
+        margin: 0 0 2rem 0;
+
+    }
+}
+
+/* Resposive Footer*/
+
+@media (max-width: 768px){
+    .copy{
+        font-size: 1.2rem;
+        position: relative;
+        left: -2rem;
+        padding-right: 3rem;
+    }
+
+    .social-media{
+        position: relative;
+        left:-1.5rem;
+    }
+    
+    .social-media-icon img{
+        width: 3.5rem;
+    }
+}
+
