@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+header {
+    position: sticky;
+    top:-1px;
+    border-bottom: 1px solid #fff;
+    z-index: 3;
+        nav {
+         background-color: #000;
+         opacity: .9;
+                img{
+                width: 7rem;
+                height: 4rem;
+                    }
+                .navbar-toggler-icon{
+                    filter:brightness(700%);
+                    width: 2rem;
+                        .navbar-collapse{
+                            display: flex;
+                            justify-content: end;
+                                .navbar-nav li{
+                                    margin: 0 1rem;
+                                    font-size: 1.3rem;
+                                        .nav-link{
+                                            color: #fff;
+                                        }
+                                        .nav-link.activo{
+                                            color: goldenrod;
+                                        }
+                                        .nav-link:hover{
+                                            @extend .nav-link.activo;
+                                        }
+                                }
+                    }    
+                }
+            }
+}  

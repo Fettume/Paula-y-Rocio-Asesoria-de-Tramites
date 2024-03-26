@@ -1,0 +1,40 @@
+
+
+.testimonios-main{
+    background: linear-gradient(#82DCFF,lightyellow);
+        .testimonios-layout{
+            margin: auto;
+                .aside{
+                    width: 50%;
+                    padding-top: 42rem;
+                }
+                .carousel-container{
+                    display: flex;
+                    align-items: center;
+                        .carousel-item img{
+                            width: 70rem;
+                            border-radius: 15%;
+                            border: 6px solid lightyellow;
+                        }
+                        .carousel-iconos{
+                            background-color: #000;
+                            border-radius: 50%;
+                        }
+                }
+                
+        }
+}
+
+@media (max-width: 768px){
+    .carousel-inner{
+        width: 94vw;
+            img{
+                display: flex;
+                position: relative;
+                right:4rem;
+                width: 130vw;
+                height: 100vh;
+                object-fit:fill;
+            }
+    }
+}

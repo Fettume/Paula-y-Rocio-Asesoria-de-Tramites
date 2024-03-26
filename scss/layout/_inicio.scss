@@ -1,0 +1,43 @@
+
+
+
+.main-inicio{
+    height: 100vh;
+        .inicio-titulo-container{
+            border: 5px solid #3D3C3C;
+            width: max-content;
+            margin: 4rem auto;
+            background-color: #000;
+                .inicio-titulo{
+                    font-size: 5rem;
+                    font-family: 'The Amsterdam', sans-serif;
+                    margin: 2rem 0rem 1rem 0;
+                    padding: 0 1rem;
+                    color: #fff;
+                }
+                .inicio-sub-titulo{
+                    font-size: 2rem;
+                    font-family: "Montserrat", sans-serif;
+                    margin-bottom: 2rem;
+                    color: #918e8e;
+                }
+                .search-bar-input{
+                    width: 30rem;
+                }
+        }
+}
+
+@media (max-width: 768px){
+    .inicio-titulo-container{
+        width: 95vw;
+            .inicio-titulo{
+                font-size: 15vw;
+            }
+            .inicio-sub-titulo{
+                font-size: 8vw;
+            }
+            .barra input{
+                width: 80vw;
+            }
+    }  
+}
