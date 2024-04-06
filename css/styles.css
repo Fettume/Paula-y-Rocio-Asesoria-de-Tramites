@@ -166,12 +166,12 @@ body {
 .nosotros-container .nosotros-left .nosotros-left-container {
   margin: 4rem 0 0 0;
 }
-.nosotros-container .nosotros-left .nosotros-left-container .nosotros-left-maps {
-  border: 6px solid darkgrey;
-}
 .nosotros-container .nosotros-left .nosotros-left-container .nosotros-left-maps h3 {
   text-align: center;
   text-decoration: underline solid #000;
+}
+.nosotros-container .nosotros-left .nosotros-left-container .nosotros-left-maps iframe {
+  border: 6px solid darkgrey;
 }
 .nosotros-container .nosotros-left .nosotros-left-container .nosotros-left-reseña h4 {
   text-decoration: underline solid #000;
