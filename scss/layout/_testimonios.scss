@@ -26,15 +26,21 @@
 }
 
 @media (max-width: 768px){
-    .carousel-inner{
-        width: 94vw;
-            img{
-                display: flex;
-                position: relative;
-                right:4rem;
-                width: 130vw;
-                height: 100vh;
-                object-fit:fill;
+    .testimonios-layout{
+        .carousel-container{
+            .carousel-inner{
+                width: 94vw;
+                    .carousel-item{
+                        img{
+                            display: flex;
+                            position: relative;
+                            right:4rem;
+                            width: 128vw;
+                            height: 100vh;
+                            object-fit:fill;
+                        }
+                    }        
             }
+        }
     }
 }

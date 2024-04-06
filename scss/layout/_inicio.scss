@@ -21,23 +21,27 @@
                     margin-bottom: 2rem;
                     color: #918e8e;
                 }
-                .search-bar-input{
-                    width: 30rem;
-                }
+        }
+        .search-bar-input{
+            width: 30rem;
         }
 }
 
 @media (max-width: 768px){
-    .inicio-titulo-container{
-        width: 95vw;
-            .inicio-titulo{
-                font-size: 15vw;
-            }
-            .inicio-sub-titulo{
-                font-size: 8vw;
-            }
-            .barra input{
-                width: 80vw;
-            }
-    }  
-}
+    .main-inicio{
+        .inicio-titulo-container{
+            width: 95vw;
+                .inicio-titulo{
+                    font-size: 15vw;
+                }
+                .inicio-sub-titulo{
+                    font-size: 8vw;
+                }
+                
+        } 
+        .search-bar-input{
+            width: 80vw;
+        } 
+    }
+    }
+    

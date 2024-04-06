@@ -1,1 +1,1 @@
-Todavia falta pulir un par de datos pero la idea de esta pagina es ayudar a mi hermana y prima que quieren arrancar a emprender en lo que son tramites de ciudadanias que ellas conocen y permisos para estudios de intercambio en europa.
+La idea de este proyecto es armar una asesoría de trámites que se encargue principalmente de gestionar la documentación necesaria para obtener la ciudadanía italiana, así como también la obtención de visas de estudio europeas.

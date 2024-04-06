@@ -30,6 +30,10 @@
                     margin-bottom: 1rem;
                     border: 3px solid #000;
                     border-radius: 15%;
+                        &:hover{
+                            transform: rotate(360deg);
+                            transition: 1s;
+                        }
                 }
         }
 }

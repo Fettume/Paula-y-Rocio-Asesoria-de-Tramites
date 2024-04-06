@@ -13,126 +13,152 @@
             padding: 1rem;
             border: 1rem double lightgray;
             border-radius: 40%;
-        }
-        .nosotros-container{
+        }     
+}
+.nosotros-container{
+    display: flex;
+    justify-content: space-between;
+        .nosotros-left{
             display: flex;
-            justify-content: space-between;
-                .nosotros-left{
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                    flex-direction: column;
-                    width: 50vw;
-                    margin: 5rem 0rem;
-                        .nosotros-left-video iframe{
-                            border: 6px solid darkgrey;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            width: 50vw;
+            margin: 5rem 0rem;
+                .nosotros-left-video iframe{
+                    border: 6px solid darkgrey;
+                }
+                .nosotros-left-container{
+                    margin: 4rem 0 0 0;
+                        .nosotros-left-maps h3{
+                            text-align: center;
+                            text-decoration: underline solid #000;
                         }
-                        .nosotros-left-container{
-                            margin: 4rem 0 0 0;
-                                .nosotros-left-maps h3{
-                                    text-align: center;
-                                    text-decoration: underline solid #000;
-                                }
-                                .nosotros-left-reseña{
-                                    h4{
-                                        text-decoration: underline solid #000;
-                                        text-align: center;
-                                    }
-                                    img{
-                                        width: 20rem;
-                                        margin: 2rem;
-                                        border: 3px solid darkgrey;
-                                    }
-                                } 
+                        .nosotros-left-reseña{
+                            h4{
+                                text-decoration: underline solid #000;
+                                text-align: center;
+                            }
+                            img{
+                                width: 20rem;
+                                margin: 2rem;
+                                border: 3px solid darkgrey;
+                            }
+                        } 
+                }
+        }
+        .nosotros-right{
+            width: 40vw;
+            margin: 5rem 5rem 0 0;
+                .nosotros-right-text1{
+                    padding: 1rem;
+                    border: 5px solid goldenrod;
+                    border-radius: 10%;
+                     background-color: beige;
+                        h3{
+                            text-decoration: underline solid #000;
+                            text-align: center;
+                            margin-bottom: 3rem;
+                        }
+                        p{
+                            text-align:center;
                         }
                 }
-                .nosotros-right{
-                    width: 40vw;
-                    margin: 5rem 5rem 0 0;
-                        .nosotros-right-text1{
-                            margin-bottom: 3rem;
-                                h3{
-                                    text-decoration: underline solid #000;
-                                    text-align: center;
-                                    margin-bottom: 3rem;
-                                }
-                        }
-                        .rocio-background{
-                            padding: 2rem 0;
+                .rocio-background{
+                    padding: 2rem 0;
+                    border-radius: 10%;
+                        .rocio-container{
+                            margin-bottom: 2rem;
+                            border: 5px solid goldenrod;
                             border-radius: 10%;
-                                .rocio-container{
-                                    margin-bottom: 2rem;
-                                    border: 5px solid goldenrod;
-                                    border-radius: 10%;
-                                    background-color: beige;
-                                        
-                                        .rocio-imagen img{
-                                            width: 15rem;
-                                            border-radius: 100%;
-                                            border: 3px solid #000;
-                                            margin: 1rem 1rem;
+                            background-color: beige;
+                                
+                                .rocio-imagen img{
+                                    width: 15rem;
+                                    border-radius: 100%;
+                                    border: 3px solid #000;
+                                    margin: 1rem 1rem;
+                                }
+                                .rocio-list{
+                                    margin-top: 1rem;
+                                        .rocio-items-nombre{
+                                            list-style: none;
                                         }
-                                        .rocio-list{
-                                            margin-top: 1rem;
-                                                .rocio-items-nombre{
-                                                    list-style: none;
-                                                        a{
-                                                            text-decoration: none;
-                                                            color: goldenrod;
-                                                            font-size: 2rem;
-                                                        }
-                                                        a:hover {
-                                                            color: gold;
-                                                            transition: .5s;
-                                                        }
+                                        .rocio-items{
+                                            margin-bottom: .5rem;
+                                            a{
+                                                text-decoration: none;
+                                                color: goldenrod;
+                                                font-size: 2rem;
+                                                :hover {
+                                                    color: gold;
+                                                    transition: .5s;
                                                 }
+                                            }
                                         }
-                                .paula{
-                                    margin: 0;
+                                        .rocio-ul{
+                                            li{
+                                                margin: 0 .5rem .5rem 0;
+
+                                            }
+                                        }
                                 }
-                                }
+                        .paula{
+                            margin: 0;
+                        }
                         }
                 }
         }
 }
 
 @media (max-width: 768px){
-    .nosotros-titulo h1{
-        font-size: 12vw;
+    .nosotros-titulo{
+        h1{
+            font-size: 11vw;
+        }
     }
     .nosotros-container{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-            .nosotros-left-video iframe{
-                width: 90vw;
-                height: 30vh;
-            }    
-            .nosotros-left-container{
-                    flex-direction: column;
-                        .nosotros-left-reseña img{
-                            width: 90vw;
-                            height: 20vh;
-                            margin: 1rem 0;
-                        }
-                        .nosotros-left-maps iframe{
-                            width: 90vw;
-                            height: 40vh;
-                        }
+            .nosotros-left{
+                .nosotros-left-video{
+                    iframe{
+                        width: 90vw;
+                        height: 30vh;
+                    }    
                 }
-                .nosotros-right{
-                    margin: 0;
-                    width: 90vw;
-                        .nosotros-right-text1{
-                            margin: 0;
-                                h3{
-                                    margin: 2rem 0;
+                .nosotros-left-container{
+                        flex-direction: column;
+                                .nosotros-left-reseña{
+                                    img{
+                                        width: 90vw;
+                                        height: 20vh;
+                                        margin: 1rem 0;
+                                    }
+                                } 
+                            .nosotros-left-maps{
+                                iframe{
+                                    width: 90vw;
+                                    height: 40vh;
                                 }
-                        }    
-                        .rocio-container{
-                                flex-direction: column;
-                                align-items: center;
+                            }    
+                    }
+            }  
+        
+            .nosotros-right{
+                  margin: 0;
+                 width: 90vw;
+                    .nosotros-right-text1{
+                        margin: 0;
+                            h3{
+                                margin: 2rem 0;
                             }
-                }
+                    }    
+                    .rocio-container{
+                            flex-direction: column;
+                            align-items: center;
+                        }
+              }
     }
 }

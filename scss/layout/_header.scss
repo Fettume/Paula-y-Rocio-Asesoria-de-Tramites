@@ -17,26 +17,27 @@ header {
                 width: 7rem;
                 height: 4rem;
                     }
-                .navbar-toggler-icon{
-                    filter:brightness(700%);
-                    width: 2rem;
-                        .navbar-collapse{
-                            display: flex;
-                            justify-content: end;
-                                .navbar-nav li{
-                                    margin: 0 1rem;
-                                    font-size: 1.3rem;
-                                        .nav-link{
+                .navbar-collapse{
+                    display: flex;
+                    justify-content: end;
+                        .navbar-nav li{
+                            margin: 0 1rem;
+                            font-size: 1.3rem;
+                                .nav-link{
                                             color: #fff;
-                                        }
-                                        .nav-link.activo{
+                                        &.activo{
                                             color: goldenrod;
                                         }
-                                        .nav-link:hover{
-                                            @extend .nav-link.activo;
-                                        }
-                                }
-                    }    
-                }
+                                        &:hover{
+                                            @extend .activo;
+                                        } 
+                                 }
+                        }
+                      }
+                .navbar-toggler-icon{
+                 filter:brightness(700%);
+                 width: 2rem;
+                }  
+                        
             }
 }  

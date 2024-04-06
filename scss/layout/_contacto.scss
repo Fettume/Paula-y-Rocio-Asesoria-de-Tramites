@@ -8,7 +8,7 @@ $fondo-amarillo:#fdbf39;
 .contacto-left{
     iframe{
         border: 10px solid lightgrey;
-        margin-left: 3rem;
+        margin-left: 6vw;
     }
     .contacto-left-titulo{
         margin: 1rem;
@@ -16,16 +16,16 @@ $fondo-amarillo:#fdbf39;
     }
 }  
 .contacto-right{
-    margin: 4rem 3rem 4rem 0 ;
+    margin: 4rem 6vw 4rem 0 ;
     border: 15px double lightgrey;
     background-color: $fondo-amarillo;
         .contacto-right-titulo{
             margin-top: 1rem
         }
-        .form{
-            margin: 1rem;
+        form{
                 input{
                     @include fondo(#000,#fff);
+                    margin: 1rem;
                 }
                 textarea{
                     @extend input;
@@ -36,17 +36,23 @@ $fondo-amarillo:#fdbf39;
                     height: 2rem;
                     width: 4rem;
                 }
-                button:hover{
-                    background-color: lightgrey;
-                    color: #000;
-                    transition: .5s;
+                button{
+                    &:hover{
+                        background-color: lightgrey;
+                        color: #000;
+                        transition: .5s;
+                    }
+                }
+                .numero input{
+                    width: 24.5rem; 
                 }
                 .email input{
-                    width: 24.5rem; 
+                  width: 24.5rem; 
                 }
                 .form-select{
                     width: 24.5rem;
                     @extend input;
+                    @include fondo(beige,#000)
                 }
         }
 }
@@ -54,6 +60,7 @@ $fondo-amarillo:#fdbf39;
 @media (max-width: 768px){
     .contacto-container{
         flex-direction: column-reverse;
+        margin-top: 3rem;
             .contacto-left iframe{
                 width: 95vw;
                 height: 95vw;
@@ -61,8 +68,10 @@ $fondo-amarillo:#fdbf39;
             }
             .contacto-right{
                 margin: 0;
-                    .form{
-                        margin: .5;
+                    form div{
+                        margin: 0;
+                        display: flex;
+                        justify-content: center;
                             input{
                                 width: 60vw;
                             }
@@ -73,8 +82,8 @@ $fondo-amarillo:#fdbf39;
                                 width: 50vw;
                                 height: 10vh;
                             }
-                            .persona{
-                                flex-direction: column;
+                            .numero input{
+                                width: 80vw;
                             }
                             .email input{
                                 width: 80vw;
@@ -82,6 +91,9 @@ $fondo-amarillo:#fdbf39;
                             .form-select{
                                 width: 80vw;
                             }
+                    }
+                    .persona{
+                        flex-direction: column;
                     }
             }
     }
