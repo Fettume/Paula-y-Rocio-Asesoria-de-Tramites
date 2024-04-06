@@ -57,6 +57,7 @@ body {
   margin-left: 6vw;
   text-decoration: underline 2px double;
 }
+
 .contacto-right {
   margin: 4rem 6vw 4rem 0;
   border: 15px double lightgrey;
@@ -164,6 +165,9 @@ body {
 }
 .nosotros-container .nosotros-left .nosotros-left-container {
   margin: 4rem 0 0 0;
+}
+.nosotros-container .nosotros-left .nosotros-left-container .nosotros-left-maps {
+  border: 6px solid darkgrey;
 }
 .nosotros-container .nosotros-left .nosotros-left-container .nosotros-left-maps h3 {
   text-align: center;

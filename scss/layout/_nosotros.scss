@@ -30,9 +30,12 @@
                 }
                 .nosotros-left-container{
                     margin: 4rem 0 0 0;
-                        .nosotros-left-maps h3{
-                            text-align: center;
-                            text-decoration: underline solid #000;
+                        .nosotros-left-maps {
+                            border: 6px solid darkgrey;
+                                h3{
+                                    text-align: center;
+                                    text-decoration: underline solid #000;
+                                }
                         }
                         .nosotros-left-reseña{
                             h4{
