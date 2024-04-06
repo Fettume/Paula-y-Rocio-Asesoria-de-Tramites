@@ -54,10 +54,9 @@ body {
   margin-left: 6vw;
 }
 .contacto-left .contacto-left-titulo {
-  margin: 1rem;
+  margin-left: 6vw;
   text-decoration: underline 2px double;
 }
-
 .contacto-right {
   margin: 4rem 6vw 4rem 0;
   border: 15px double lightgrey;
